@@ -1,0 +1,11 @@
+.parent-container {
+    position: relative; /* Set the parent container to relative position */
+    display: inline-block; /* Ensure that the parent container wraps its content */
+  }
+  
+  .bounding-box {
+    position: absolute; /* Position the bounding box absolutely within the parent */
+    box-shadow: 0 0 0 3px #149df2 inset;
+    width: auto; /* You can set the width and height as needed */
+    height: auto;
+  }
